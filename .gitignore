@@ -1,0 +1,6 @@
+# machine-local secrets — never commit
+**/secrets.fish
+secrets.fish
+
+# backups created by install.sh
+*.bak.*
