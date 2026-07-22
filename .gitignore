@@ -4,3 +4,6 @@ secrets.fish
 
 # backups created by install.sh
 *.bak.*
+
+# macOS Finder cruft
+.DS_Store
