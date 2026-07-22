@@ -27,7 +27,7 @@
 ## Install
 
 ```sh
-git clone <your-repo-url> ~/Documents/onyx
+git clone https://github.com/refr4g/onyx.git ~/Documents/onyx
 cd ~/Documents/onyx
 ./install.sh
 ```
