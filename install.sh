@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ============================================================================
-#  onyx installer — oxocarbon terminal & neovim (fish · tmux · bat · eza · neovim)
+#  onyx installer — oxocarbon terminal & neovim (fish · tmux · bat · eza · neovim · burp)
 #  Works on macOS and Linux (brew / apt / dnf / pacman / zypper).
 #
 #  Usage:
@@ -139,6 +139,7 @@ link tmux/tmux.conf                        "$CONFIG/tmux/tmux.conf"
 link bat/config                            "$CONFIG/bat/config"
 link bat/themes/oxocarbon.tmTheme          "$CONFIG/bat/themes/oxocarbon.tmTheme"
 link nvim/init.lua                         "$CONFIG/nvim/init.lua"
+link burp/themes/oxocarbon.theme.json      "$HOME/.BurpSuite/themes/oxocarbon.theme.json"
 
 # secrets: create a real (git-ignored) copy if absent
 if [ ! -f "$CONFIG/fish/secrets.fish" ]; then
